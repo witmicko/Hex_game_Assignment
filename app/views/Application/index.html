@@ -1,0 +1,32 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+  #{include 'templates\\labels.html'/}
+  #{include 'templates\\grid.html'/}
+
+
+<a href="@{Application.newGame()}"><button>asd</button><a/>
+
+#{if hexGame != null}
+ #{if hexGame.isWinner()}
+     <h1>Player ${hexGame.currentPlayer} WON!!!</h1>
+ #{/if}
+  <h2>Player`s ${hexGame.getCurrentPlayer()} turn<h2/>
+  <h2>game`s ID ${hexGame.id}<h2/>
+
+    <form class="form-vertical  span3 well" action="@{Application.takeTurn(x,y,id)}" method="POST">
+        <div class="control-group">
+            <span class="label label-info">Login</span>
+            <div class="controls">
+                <input type="hidden" value="${hexGame.id}" name="id" id="id">
+                <input type="number" class="input-medium" name="x" id="x" placeholder="x" >
+                <input type="number"  class="input-medium" name="y" id="y" placeholder="y" >
+                <button class="btn btn-primary" type="submit" value="Login">Login</button>
+            </div>
+        </div>
+    </form>
+#{/if}
+
+
+
