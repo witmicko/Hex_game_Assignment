@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Hex.java" afterPath="$PROJECT_DIR$/app/models/Hex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/models/Hex.class" afterPath="$PROJECT_DIR$/tmp/classes/models/Hex.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Hex" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Hex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hexGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hex.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380397811100" ignored="false" />
-    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380401605799" ignored="false" />
+    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380401937827" ignored="false" />
     <file path="/WeightedQuickUnionUF.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385815450" ignored="false" />
     <file path="/fragment.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385451317" ignored="false" />
     <file path="/BoardGame.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380397473928" ignored="false" />
@@ -77,10 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hex.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Hex.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Hex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="5" selection-start="1581" selection-end="1581" vertical-scroll-proportion="-5.233333">
+            <state line="60" column="5" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="-13.36">
+            <state line="145" column="22" selection-start="4394" selection-end="4394" vertical-scroll-proportion="-1.8737271">
               <folding />
             </state>
           </provider>
@@ -145,16 +146,15 @@
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/system.properties" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/models/Hex.java" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -351,11 +351,15 @@
       <created>1380401609054</created>
       <updated>1380401609054</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="heroku yokes">
+      <created>1380401942246</created>
+      <updated>1380401942246</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="683" y="0" width="683" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -378,7 +382,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6705686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.531401" sideWeight="0.6705686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -559,19 +563,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="-13.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Hex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="1581" selection-end="1581" vertical-scroll-proportion="-5.233333">
+        <state line="60" column="5" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="22" selection-start="4394" selection-end="4394" vertical-scroll-proportion="-1.8737271">
+          <folding />
         </state>
       </provider>
     </entry>
