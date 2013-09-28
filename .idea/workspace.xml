@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Hex.java" afterPath="$PROJECT_DIR$/app/models/Hex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hexGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hex.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380397811100" ignored="false" />
-    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380401405813" ignored="false" />
+    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380401605799" ignored="false" />
     <file path="/WeightedQuickUnionUF.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385815450" ignored="false" />
     <file path="/fragment.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385451317" ignored="false" />
     <file path="/BoardGame.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380397473928" ignored="false" />
@@ -76,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hex.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Hex.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/Hex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+            <state line="60" column="5" selection-start="1581" selection-end="1581" vertical-scroll-proportion="-5.233333">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="14" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.39449543">
+            <state line="85" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="-13.36">
               <folding />
             </state>
           </provider>
@@ -140,12 +141,12 @@
         <option value="$PROJECT_DIR$/app/views/templates/labels.html" />
         <option value="$PROJECT_DIR$/app/views/templates/grid.html" />
         <option value="$PROJECT_DIR$/app/models/BoardGame.java" />
-        <option value="$PROJECT_DIR$/app/models/Hex.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/app/models/Hex.java" />
       </list>
     </option>
   </component>
@@ -346,7 +347,11 @@
       <created>1380401410067</created>
       <updated>1380401410067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="heroku yokes">
+      <created>1380401609054</created>
+      <updated>1380401609054</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -524,15 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Hex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="40" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
@@ -565,8 +561,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="14" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.39449543">
+        <state line="85" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="-13.36">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="5" selection-start="1581" selection-end="1581" vertical-scroll-proportion="-5.233333">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
