@@ -4,6 +4,7 @@ import play.db.jpa.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.Lob;
+import javax.persistence.Table;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,6 +14,7 @@ import javax.persistence.Lob;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
+@Table(name = "mahgame")
 public class Hex extends Model {
 
     @Lob
@@ -33,6 +35,7 @@ public class Hex extends Model {
      * @param n1
      * @param n2
      */
+
     public Hex(int n1, int n2) // create N-by-N grid, with all sites blocked
     {
         this.n1 = n1;

@@ -27,14 +27,14 @@ public class Application extends Controller {
 
     public static void index() {
         Hex hexGame = new Hex(11, 11);
-        hexGame._save();
-        renderTemplate("\\Application\\index.html", hexGame);
+        hexGame.save();
+        render(hexGame);
     }
 
     public static void newGame() {
         Hex hexGame = new Hex(11, 11);
         hexGame.save();
-        renderTemplate("\\Application\\index.html", hexGame);
+        renderTemplate("Application\\index.html", hexGame);
     }
 
     public static void takeTurn(int x, int y, long id) {
@@ -47,7 +47,7 @@ public class Application extends Controller {
             takeTurn(x,y,id);
         }
         hexGame.save();
-        renderTemplate("\\Application\\index.html", hexGame);
+        renderTemplate("Application\\index.html", hexGame);
     }
 
 
