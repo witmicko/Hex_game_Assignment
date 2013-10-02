@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="onClickGrid.js production error">
+    <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hexGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hex.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380707771712" ignored="false" />
-    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380713502966" ignored="false" />
+    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380713797925" ignored="false" />
     <file path="/WeightedQuickUnionUF.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385815450" ignored="false" />
     <file path="/fragment.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380475873555" ignored="false" />
     <file path="/BoardGame.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380476016219" ignored="false" />
@@ -137,7 +137,7 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.35216573">
+            <state line="15" column="4" selection-start="536" selection-end="536" vertical-scroll-proportion="0.48022598">
               <folding />
             </state>
           </provider>
@@ -504,7 +504,11 @@
       <created>1380713311680</created>
       <updated>1380713311680</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="onClickGrid.js production error">
+      <created>1380713800951</created>
+      <updated>1380713800951</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -702,7 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.35216573">
+        <state line="15" column="4" selection-start="536" selection-end="536" vertical-scroll-proportion="0.48022598">
           <folding />
         </state>
       </provider>
