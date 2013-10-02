@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
+    <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="onClickGrid.js production error">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hexGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hex.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380707771712" ignored="false" />
-    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380712699881" ignored="false" />
+    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380713502966" ignored="false" />
     <file path="/WeightedQuickUnionUF.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385815450" ignored="false" />
     <file path="/fragment.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380475873555" ignored="false" />
     <file path="/BoardGame.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380476016219" ignored="false" />
@@ -139,7 +137,7 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="126" selection-start="589" selection-end="589" vertical-scroll-proportion="0.32015067">
+            <state line="11" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.35216573">
               <folding />
             </state>
           </provider>
@@ -185,8 +183,8 @@
         <option value="$PROJECT_DIR$/app/models/BoardGame.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
       </list>
     </option>
@@ -502,7 +500,11 @@
       <created>1380712704538</created>
       <updated>1380712704538</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="onClickGrid.js production error">
+      <created>1380713311680</created>
+      <updated>1380713311680</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,7 +581,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="herokuApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="onClickGrid.js production error" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -597,6 +599,7 @@
     <MESSAGE value="heroku yokes" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="herokuApp" />
+    <MESSAGE value="onClickGrid.js production error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -676,16 +679,16 @@
         <state line="2" column="40" selection-start="86" selection-end="86" vertical-scroll-proportion="0.05964912" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="2" selection-start="2668" selection-end="2668" vertical-scroll-proportion="0.0">
+        <state line="45" column="23" selection-start="1027" selection-end="1052" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1027" selection-end="1052" vertical-scroll-proportion="0.0">
+        <state line="84" column="2" selection-start="2668" selection-end="2668" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -699,7 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="126" selection-start="589" selection-end="589" vertical-scroll-proportion="0.32015067">
+        <state line="11" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.35216573">
           <folding />
         </state>
       </provider>
