@@ -15,7 +15,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "mahgame")
-public class Hex extends Model {
+public class Hex extends Model{
 
     @Lob
     private final int[][] board; // 2D Board. 0 - empty, 1 - Player 1, 2 - Player 2
@@ -61,7 +61,7 @@ public class Hex extends Model {
      * @param x - x coord on board
      * @param y - y coord on board
      */
-   // @Override
+    // @Override
     public void takeTurn(int x, int y) {
         //check coords are valid ranges: 0 >= x < n1 AND 0 >= y < n2
         boolean validCoords = (x < n1 && x >= 0 && y < n2 && y >= 0);
@@ -178,7 +178,7 @@ public class Hex extends Model {
     /**
      * @return
      */
-   // @Override
+    // @Override
     public int getCurrentPlayer() {
         return currentPlayer;
     }
@@ -253,10 +253,10 @@ public class Hex extends Model {
         }
     }
 
-    public String getColor(int x, int y){
-        String color="#dfdfdf";
-        if (board[x][y]==1)color="blue";
-        else if (board[x][y]==2)color="red";
+    public String getColor(int x, int y) {
+        String color = "#dfdfdf";
+        if (board[x][y] == 1) color = "blue";
+        else if (board[x][y] == 2) color = "red";
 
         return color;
     }

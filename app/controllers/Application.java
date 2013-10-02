@@ -42,13 +42,27 @@ public class Application extends Controller {
         hexGame.takeTurn(x, y);
         hexGame._save();
         if(hexGame.getCurrentPlayer()==2){
-            x = (int)(Math.random()*10);
-            y = (int)(Math.random()*10);
+            if(hexGame.isWinner()){
+                hexGame._delete();
+                index();
+            }
+            x = (int)(Math.random()*11);
+            y = (int)(Math.random()*11);
             takeTurn(x,y,id);
         }
         hexGame.save();
         renderTemplate("Application/index.html", hexGame);
     }
+
+    public static void removeAll(){
+        List<Hex>list = Hex.findAll();
+        for(Hex x:list){
+            System.out.println(x.id);
+            x.delete();
+        }
+        index();
+    }
+
 
 
 }
