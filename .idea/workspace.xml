@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment=".gitignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/onClickGrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/models/Hex.class" afterPath="$PROJECT_DIR$/tmp/classes/models/Hex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Hex" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Hex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Hex.java" afterPath="$PROJECT_DIR$/app/models/Hex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_templates_grid.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_templates_grid.html" />
+    <list default="true" id="876c5832-84f4-491d-b8be-522fc293f0cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/templates/grid.html" afterPath="$PROJECT_DIR$/app/views/templates/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hexGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hex.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380707771712" ignored="false" />
-    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380705747449" ignored="false" />
+    <file path="/Dummy.txt" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380712634669" ignored="false" />
     <file path="/WeightedQuickUnionUF.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380385815450" ignored="false" />
     <file path="/fragment.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380475873555" ignored="false" />
     <file path="/BoardGame.java" changelist="876c5832-84f4-491d-b8be-522fc293f0cd" time="1380476016219" ignored="false" />
@@ -113,16 +101,16 @@
       <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+            <state line="45" column="23" selection-start="1027" selection-end="1052" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="40" selection-start="86" selection-end="86" vertical-scroll-proportion="0.05964912">
+            <state line="92" column="0" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.56666666">
               <folding />
             </state>
           </provider>
@@ -179,7 +167,6 @@
         <option value="$PROJECT_DIR$/app/views/templates/labels.html" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/system.properties" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/controllers/AD.java" />
         <option value="$PROJECT_DIR$/app/views/templates/grid.html" />
         <option value="$PROJECT_DIR$/public/javascripts/onClickGrid.js" />
@@ -188,6 +175,7 @@
         <option value="$PROJECT_DIR$/app/models/BoardGame.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
       </list>
     </option>
   </component>
@@ -225,8 +213,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +230,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hexGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hexGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hexGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,11 +264,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -281,19 +283,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -324,6 +313,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -337,6 +339,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -358,13 +367,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -416,7 +418,11 @@
       <created>1380406736980</created>
       <updated>1380406736980</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=".gitignore">
+      <created>1380708532720</created>
+      <updated>1380708532720</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,9 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="47" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/Hex_board_11x11.svg">
@@ -545,9 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system.properties">
@@ -558,11 +560,6 @@
     <entry file="file://$PROJECT_DIR$/Procfile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.02982456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
@@ -605,16 +602,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="86" selection-end="86" vertical-scroll-proportion="0.05964912" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+        <state line="45" column="23" selection-start="1027" selection-end="1052" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="86" selection-end="86" vertical-scroll-proportion="0.05964912">
+        <state line="92" column="0" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.56666666">
           <folding />
         </state>
       </provider>
