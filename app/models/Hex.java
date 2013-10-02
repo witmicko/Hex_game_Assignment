@@ -15,7 +15,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "mahgame")
-public class Hex extends Model{
+public class Hex extends Model {
 
     @Lob
     private final int[][] board; // 2D Board. 0 - empty, 1 - Player 1, 2 - Player 2
@@ -81,13 +81,13 @@ public class Hex extends Model{
 
             //create unions to neighbour sites in WeightedQuickUnionUF that also contain current players value
             neighbourSitesCheck(x, y, indexInWQUF);
+            if (!isWinner()) nextPlayer();
         }
 
         // in invalid coords or not empty site repeat players round
-        if (!validCoords || !emptySite) nextPlayer("rpt");
 
             // if no winner get the next player
-        else if (!isWinner()) nextPlayer("nxt");
+
     }//END takeTurn
 
     /**
@@ -140,14 +140,9 @@ public class Hex extends Model{
     /**
      * @param nextPlayer
      */
-    private void nextPlayer(final String nextPlayer) {
-        switch (nextPlayer) {
-            case "nxt":
-                setCurrentPlayer((currentPlayer == 2) ? 1 : 2);
-                break;
-            case "rpt":
-                break;
-        }
+    private void nextPlayer() {
+        setCurrentPlayer((currentPlayer == 2) ? 1 : 2);
+
     }
 
     /*
